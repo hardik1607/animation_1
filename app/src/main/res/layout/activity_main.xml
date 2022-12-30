@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/car">
+
+    </ImageView>
+<Button
+    android:id="@+id/b1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Fade In Animation"
+    android:onClick="fade_in_animation"
+    android:textSize="15dp"/>
+    <Button
+        android:id="@+id/b2"
+        android:onClick="fade_out_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fade_out_animation">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blink Animation"
+        android:onClick="blink_animation">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoom In Animation"
+        android:onClick="Zoom_In_Animation">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoom Out Animation"
+        android:onClick="zoom_out_animation">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotate Animation"
+        android:onClick="Rotate_Animation">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move Animation"
+        android:onClick="Move_Animation">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide Up Animation"
+        android:onClick="Slide_Up_Animation">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide Down Animation"
+        android:onClick="Slide_Down_Animation">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bounce Animation"
+        android:onClick="Bounce_Animation">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sequential Animation"
+        android:onClick="sequential_animation">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Together Animation"
+        android:onClick="Together_Animation">
+    </Button>
+
+
+</LinearLayout>
